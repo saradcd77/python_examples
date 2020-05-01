@@ -4,9 +4,9 @@ class Point:
         self.y = y
      	self.dict = {"a":1,"b":2}
 
-    # Return the attributes of the class using inbuilt string method
-    # def __str__(self):
-    #     return f"({self.x},{self.y})"
+    Return the attributes of the class using inbuilt string method
+    def __str__(self):
+        return f"({self.x},{self.y})"
 
     def __getitem__(self,key):
     	return self.dict[key]
@@ -22,7 +22,7 @@ class Point:
 point = Point(1, 2)
 other = Point(3, 4)
 
-print(point < other) #Printes True
+print(point < other) #Prints True
 print(other > point ) #Prints True
 print(point) #Prints value of point object (1,2)
 
