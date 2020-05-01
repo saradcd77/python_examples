@@ -1,5 +1,5 @@
 # python_examples
-Trying to write poetry with beautiful python
+Created this repo to keep coding in python using features that are available to it.
 
 <h3> About this </h2>
-  Learning Python and practising to write elegant code with python
+  Learning Python and practising to write elegant pythonic code
