@@ -32,3 +32,5 @@ print(output)
 output = [(x,len(x)) for x in text.split()]
 print(output)
 
+""" Condtional Comprehension or using Filter along with Comprehension """
+output = [(x, len(x)) for x in text.split() if len(x) > 4 and len(x) < 7] # only prints the words whose lenghts is > 4 and < 7
