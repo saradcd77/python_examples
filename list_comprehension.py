@@ -34,3 +34,17 @@ print(output)
 
 """ Condtional Comprehension or using Filter along with Comprehension """
 output = [(x, len(x)) for x in text.split() if len(x) > 4 and len(x) < 7] # only prints the words whose lenghts is > 4 and < 7
+
+
+""" Nested List Comprehension """
+
+city_names = ["Kathmandu", "Paris", "Washington, D.C", "San Francisco"]
+things_to_see = ["Bus Park", "Effiel Tower", "Lincoln Memorial", "Pier 39"]
+
+for nest_things in [(city_name, thing_to_see) for city_name in city_names for thing_to_see in things_to_see]:
+	print(nest_things)
+
+# Using two for loops
+for city_name in city_names:
+    for thing_to_see in things_to_see:
+        print(city_name, things_to_see)
