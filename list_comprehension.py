@@ -2,6 +2,7 @@
 
 # Finding square of the numbers from 1 to 5
 
+
 numbers = [1, 2, 3, 4, 5]
 squares = []
 
