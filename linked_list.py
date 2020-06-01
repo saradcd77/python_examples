@@ -1,4 +1,4 @@
-""" LinkedList in Python """
+""" LinkedLists in Python """
 
 #Singly LinkedList
 class Node:
@@ -53,8 +53,8 @@ c.add_next(d)
 
 print('-'* 30 + " Singly LinkedList "+ '-'* 30)
 
-print(a) #--> 1
-print(a.get_next()) #--> 
+print(a) 
+print(a.get_next()) 
 print(b.get_next())
 print(c.get_next())
 
